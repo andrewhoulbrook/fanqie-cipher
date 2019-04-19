@@ -68,7 +68,7 @@ pip install pypinyin
 
 ### Usage
 
-Script can be run from the command line using passing two options 1. "encipher" 1. "decipher"
+Script can be run from the command line using passing two options 1. "encipher" 2. "decipher"
 
 e.g. 
 ```
