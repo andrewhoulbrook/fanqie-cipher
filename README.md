@@ -95,21 +95,25 @@ The syllable of each character can be matched their to Initial-Final pairs in Pi
 
 These Initial-Final pairs are then matched to the following Characters from texts of Poem One and Poem Two:
 
-* Ch  (Initial) -> 处 (Poem One, Character 54)
-* F (Initial) -> 釜 (Poem One, Character 78)
-* L  (Initial) -> 落 (Poem One, Character 64)
-* M  (Initial) -> 眠 (Poem One, Character 49)
+| Initial | Character (Poem One) | Character Number (Poem One)|
+|:-------:|:--------------------:|:--------------------------:|
+| Ch      | 处                   | 54                         |
+| F       | 釜                   | 78                         |
+| L       | 落                   | 64                         |
+| M       | 眠                   | 49                         |
 
-* I  (Final) -> 一 (Poem Two, Character 86)
-* An (Final) -> 山 (Poem Two, Character 61)
-* E  (Final) -> 野 (Poem Two, Character 89)
-* A  (Final) -> 踏 (Poem Two, Character 37)
+| Final | Character (Poem Two) | Character Number (Poem Two)|
+|:-------:|:--------------------:|:--------------------------:|
+| I       | 一                   | 86                         |
+| An      | 山                   | 61                         |
+| E       | 野                   | 89                         |
+| A       | 踏                   | 37                         |
 
 The above can be put into General Qi's numerical ciphertext format as shown below.
 
 Format: Character from Poem One - Character from Poem Two - Tone of Plaintext Character.
 
-Ciphertext: 53-85-1 77-60-4 63-88-0 48-36-0
+Ciphertext: 53-85-1, 77-60-4, 63-88-0, 48-36-0
 
 ## Built With
 
