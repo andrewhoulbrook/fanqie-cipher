@@ -24,9 +24,7 @@ Worth noting that there's no dictionary-like mapping of one symbol to one sound,
 
 How did General Qi use this as a cipher? He would craft two poems!  
 
-The first poem would contain characters used to encode Initials, while the second poem the Finals. General Qi communicated his ciphertext numerically like 5-52-1, 7-12-4. 
-
-The three sets of digits represented the location of the character in the first poem representing the Initial, the character in the second poem representing the Final, while the final digit denoted the new character's tone. 
+The first poem would contain characters used to encode Initials, while the second poem the Finals. General Qi communicated his ciphertext numerically like 5-52-1, 7-12-4, where each three digit block corresponds to one enciphered character. The first digit represents the location of characters in the first poem (representing the Initials), the second digit representing characters in the second poem (representing the Finals), and the final digit denoting the enciphered character's tone.  
 
 As an art form, poetry doesn't strictly follow grammatical rules. It can be more fluid. This means while common cryptanalysis techniques such as statistical frequency analysis would identify the final digit as never being above 8 (tones used in ancient Chinese), and the likely repeated use of many military phrases and thus their corresponding digits, that's all without the General's poems. The enemy might work out that 52 appears to correlate with "attack", but that's all. Attack where and when? 
 
@@ -84,7 +82,7 @@ Using the two poetry files in this repo's /data directory, the message below can
 
 Plaintext: "吃饭了吗"
 
-The syllable of each character can be matched their to Initial-Final pairs in Pinyin:
+The syllable of each character can be matched to their Initial-Final pairs in Pinyin:
 
 | Character | Initial   | Final     | Tone      |
 |:---------:|:---------:|:---------:|:---------:|
