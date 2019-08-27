@@ -111,7 +111,7 @@ The above can be put into General Qi's numerical ciphertext format as shown belo
 
 Format: Character from Poem One - Character from Poem Two - Tone of Plaintext Character.
 
-Ciphertext: 53-85-1, 77-60-4, 63-88-0, 48-36-0
+Ciphertext: 54-86-1, 78-61-4, 64-89-0, 49-37-0
 
 ## Built With
 
