@@ -24,9 +24,9 @@ Worth noting that there's no dictionary-like mapping of one symbol to one sound,
 
 How did General Qi use this as a cipher? He would craft two poems!  
 
-The first poem would contain characters used to encode Initials, while the second poem the Finals. General Qi communicated his ciphertext numerically like 5-52-1, 7-12-4, where each three digit block corresponds to one enciphered character. The first digit represents the location of characters in the first poem (representing the Initials), the second digit representing characters in the second poem (representing the Finals), and the final digit denoting the enciphered character's tone.  
+The first poem would contain characters used to encode Initials, while the second poem the Finals. General Qi communicated his ciphertext numerically like 5-52-1, 7-12-4, where each three block of three numbers corresponds to one enciphered character. The first number represents the location of characters in the first poem (representing the Initials), the second number representing characters in the second poem (representing the Finals), and the final number denoting the enciphered character's tone.  
 
-As an art form, poetry doesn't strictly follow grammatical rules. It can be more fluid. This means while common cryptanalysis techniques such as statistical frequency analysis would identify the final digit as never being above 8 (tones used in ancient Chinese), and the likely repeated use of many military phrases and thus their corresponding digits, that's all without the General's poems. The enemy might work out that 52 appears to correlate with "attack", but that's all. Attack where and when? 
+As an art form, poetry doesn't strictly follow grammatical rules. It can be more fluid. This means while common cryptanalysis techniques such as statistical frequency analysis would identify the final number as never being above 8 (tones used in ancient Chinese), and the likely repeated use of many military phrases and thus their corresponding numbers, that's all without the General's poems. The enemy might work out that 52 appears to correlate with "attack", but that's all. Attack where and when? 
 
 The poems essentially act as the cipher key.
 
