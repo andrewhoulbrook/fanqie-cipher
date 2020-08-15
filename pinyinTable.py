@@ -1,6 +1,6 @@
 #!/usr/bin/python
 # -*- encoding: utf-8 -*-
-# Empty dictionary structure of Pinyin Intials
+# Empty dictionary structure of Pinyin Intials and Finals
 
 initials = {
 "b" : "X",

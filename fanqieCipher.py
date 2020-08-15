@@ -1,6 +1,6 @@
 #!/usr/bin/python
 # -*- encoding: utf-8 -*-
-# A modern implementation of General Qi Jiguang's "Fanjie Cipher" technique
+# A modern implementation of General Qi Jiguang's "Fanqie Cipher" technique
 # Follows General's Qi technique but uses modern Pinyin as opposed to the ancient Fanqie system
 import sys
 import codecs
@@ -23,7 +23,7 @@ def cleanInput(inputStr):
     return cleanStr.strip().lower()
        
 # Get the pinyin initial and final halves of a character's sylablle
-# Analogous to General Qi's use of the ancient Fanjie system
+# Analogous to General Qi's use of the ancient Fanqie system
 def getInitialFinal(char):
     pinyin_text = pinyin(char, style=Style.NORMAL)[0][0]   # Suppress diacritics and tone marks from the output
     initial = pinyin(char, style=Style.INITIALS, strict=False)[0][0]
